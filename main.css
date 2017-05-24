@@ -1,0 +1,157 @@
+div.main{
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+}
+div.novinky{
+  border-top: 0.1em solid;
+  margin: 2em;
+}
+div.novinka{
+  border-top: 0.1em solid;
+  border-bottom: 0.1em solid;
+  margin: 2em;
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 2em;
+  background-color: #4CAF50;
+}
+div.kontakt{
+  background: #4CAF50;
+  border-bottom: 0.1em solid;
+  border-top: 0.1em solid;
+  margin: 2em;
+}
+div.kontakty{
+  border-bottom: 0.1em solid;
+}
+div.footer{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  margin: auto;
+}
+div.menu{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  margin: auto;
+  overflow: hidden;
+}
+ul.menu{
+  list-style-type: none;
+  margin: 0em;
+  padding: 0em;
+  overflow: hidden;
+  text-align: right;
+  float: none;
+}
+li.menu{
+  float: left;
+  border-right: 0.2em solid;
+  background-color: inherit;
+}
+.nav li+li{
+    padding-left: 0em;
+    padding-right: 0em;
+}
+ol.nav{
+    display: block;
+}
+.nav li+li+li:before{
+    content: ">> ";
+}
+div.nav{
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 2em;
+  margin: auto;
+  overflow: hidden;
+}
+.nav>li{
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+.active {
+    background-color: green;
+}
+dl.footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+display : inline;
+}
+dt.footer{
+  float: none;
+    display: inline;
+}
+dt dl{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+}
+h1.main{
+    font-family: fantasy;
+}
+h1{
+    text-align: center;
+}
+dd{
+  display: block;
+  margin: 0em;
+}
+dt{
+  display: block;
+  margin: 0;
+}
+dl{
+    display: inline;
+}
+.infoNav dd{
+  display: inline;
+  margin: 0em;
+}
+.infoNav dt{
+  display: inline;
+  margin: 0;
+}
+dt.obsah{
+  display: block;
+  margin: 1em;
+}
+dd.obsah{
+  display: inline;
+}
+#pripominka{
+  font-size: 1.1em;
+}
+a.noHref{
+  text-decoration: line-through;
+  background-color: black;
+}
+dl.kontakt{
+  display: inline;
+}
+p.main{
+  font-size: 1.2em;
+}
+#BO{
+  text-decoration: line-through;
+}
